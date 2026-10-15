@@ -1,0 +1,4 @@
+NVDA NVIDIA
+AAPL Apple
+MSFT Microsoft
+AMZN Amazon
