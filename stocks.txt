@@ -1,50 +1,50 @@
-NVDA
-AAPL
-MSFT
-AMZN
-GOOGL
-AVGO
-GOOG
-MU
-META
-TSLA
-BRK-B
-WMT
-JPM
-LLY
-V
-ORCL
-XOM
-MA
-COST
-JNJ
-NFLX
-PLTR
-ABBV
-HD
-BAC
-CVX
-GE
-PG
-AMD
-KO
-CSCO
-CAT
-UNH
-PM
-IBM
-CRM
-LIN
-MRK
-RTX
-MCD
-GS
-PEP
-TMO
-ABT
-ISRG
-INTU
-AMAT
-QCOM
-DIS
-NOW
+NVDA NVIDIA
+AAPL Apple
+MSFT Microsoft
+AMZN Amazon.com
+GOOGL Alphabet_(Class_A)
+AVGO Broadcom
+GOOG Alphabet_(Class_C)
+MU Micron_Technology
+META Meta_Platforms
+TSLA Tesla
+BRK-B Berkshire_Hathaway_(Class_B)
+WMT Walmart
+JPM JPMorgan_Chase
+LLY Eli_Lilly
+V Visa
+ORCL Oracle
+XOM Exxon_Mobil
+MA Mastercard
+COST Costco_Wholesale
+JNJ Johnson_&Johnson
+NFLX Netflix
+PLTR Palantir_Technologies
+ABBV AbbVie
+HD Home_Depot
+BAC Bank_of_America
+CVX Chevron
+GE GE_Aerospace
+PG Procter&Gamble
+AMD Advanced_Micro_Devices
+KO Coca-Cola
+CSCO Cisco_Systems
+CAT Caterpillar
+UNH UnitedHealth_Group
+PM Philip_Morris_International
+IBM IBM
+CRM Salesforce
+LIN Linde
+MRK Merck&_Co.
+RTX RTX
+MCD McDonald's
+GS Goldman_Sachs
+PEP PepsiCo
+TMO Thermo_Fisher_Scientific
+ABT Abbott_Laboratories
+ISRG Intuitive_Surgical
+INTU Intuit
+AMAT Applied_Materials
+QCOM Qualcomm
+DIS Walt_Disney
+NOW ServiceNow
