@@ -1,4 +1,4 @@
-name: Update stock ranking
+name: Update us stock ranking
 
 on:
   workflow_dispatch:
