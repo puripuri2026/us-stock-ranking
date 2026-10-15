@@ -1,0 +1,37 @@
+name: Update stock ranking
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pandas yfinance
+
+      - name: Download prices and generate data
+        run: python stock_chart.py --input stocks.txt --output-dir .
+
+      - name: Commit updated stock data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stock_data.json
+          if git diff --cached --quiet; then
+            echo "公開データに変更はありません。"
+          else
+            git commit -m "Update stock ranking data"
+            git push
+          fi
