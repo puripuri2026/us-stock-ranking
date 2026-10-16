@@ -867,4 +867,57 @@
             <td colspan="6" class="empty">
               stock_data.json を確認してください。
               <br>
-              ${e
+                 ${escapeHtml(error.message)}
+            </td>
+          </tr>
+        `;
+      }
+    }
+
+    $("rankingPeriod").addEventListener(
+      "change",
+      calculateRanking
+    );
+
+    $("rankingType").addEventListener(
+      "change",
+      calculateRanking
+    );
+
+    $("sortOrder").addEventListener(
+      "change",
+      calculateRanking
+    );
+
+    $("candleType").addEventListener(
+      "change",
+      renderChart
+    );
+
+    $("chartRange").addEventListener(
+      "change",
+      renderChart
+    );
+
+    $("refreshChart").addEventListener(
+      "click",
+      renderChart
+    );
+
+    $("prevStock").addEventListener("click", () => {
+      selectRelativeStock(-1);
+    });
+
+    $("nextStock").addEventListener("click", () => {
+      selectRelativeStock(1);
+    });
+
+    $("autoRotate").addEventListener(
+      "change",
+      updateAutoRotate
+    );
+
+    loadData();
+  </script>
+</body>
+</html>
